@@ -14,14 +14,14 @@ desc[0].textContent = 'This is my Buket List    '
 
 // 4: Set the class of the <ul> to 'list'
 
-const ulCLass = document.querySelector('ul')
-ulCLass.setAttribute('class','List')
+const ulClass = document.querySelector('ul')
+ulClass.setAttribute('class','List')
 
 
 // 5: Create a new list item and add it to the <ul>
     const item = document.createElement('li')
     item.innerHTML = '<input >Surfing'
-    ulClass.appendchild(item);
+    ulClass.appendChild(item);
     // const node = document.createElement("LI");         
     // const textnode = document.createTextNode("surfing"); 
     // node.appendChild(textnode);                           
